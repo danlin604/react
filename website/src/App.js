@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
+
+/*
 import Projects from './Components/Projects';
 import AddProject from './Components/AddProject';
 import uuid from 'uuid';
 import $ from 'jquery';
-import Todos from './Components/Todos'
+import Todos from './Components/Todos';
+*/
+
+import Header from './Components/Header';
+import Main from './Components/Main';
+import CarlSagan from './Components/CarlSagan';
 import './App.css';
 
 class App extends Component {
-  
+
+/*  
   constructor() {
     super();
     this.state = {
@@ -74,11 +82,20 @@ class App extends Component {
     projects.splice(index, 1);
     this.setState({projects: projects});
   }
+  */
 
   render() {
     return (
 
       <div className="App">
+        
+        <Header />
+
+        <CarlSagan />
+        {/*<Main />*/}
+
+
+        {/* 
         <h1>My App</h1>
         <AddProject addProject={this.handleAddProject.bind(this)}/>
         <Projects 
@@ -87,6 +104,7 @@ class App extends Component {
 
         <hr />
         <Todos todos={this.state.todos} />
+        */}
         
       </div>
 

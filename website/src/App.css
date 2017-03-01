@@ -1,0 +1,17 @@
+header {
+  color: rgba(100,100,100,0.87);
+  box-shadow: 0 8px 4px -2px rgba(200,200,200,0.87);
+  border-bottom: thin rgba(200,200,200,0.87);
+  border-bottom-style: solid;
+}
+
+#carlSagan {
+  display: flex;
+  flex-flow: column;
+  
+    position: absolute;
+    margin: 0 auto;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
